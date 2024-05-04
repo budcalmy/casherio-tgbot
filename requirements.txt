@@ -1,0 +1,4 @@
+asyncpg
+asyncio
+python-dotenv
+aiogram

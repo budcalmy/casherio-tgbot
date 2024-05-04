@@ -1,0 +1,6 @@
+BEG_ACTIONS = ["Go to profile"]
+HOME_PAGE_ACTIONS = ["Create an expense", "Statistics"]
+DEFAULT_CATEGORIES = ["Cafe", "Clothes", "Groceries", "Transport"]
+WASTES_TYPES = ["Usually expense", "Daily expense"]
+STATISTICS_PERIODS = ["Last day", "Last 7 days", "Last month", "All expenses"]
+BACK = ["Back"]
