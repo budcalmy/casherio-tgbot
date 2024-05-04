@@ -17,7 +17,7 @@ services:
       - ./.env
     restart: always
     depends_on:
-      - dp
+      - db
 
 
 volumes:

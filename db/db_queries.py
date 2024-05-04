@@ -13,11 +13,11 @@ logging.basicConfig(level=logging.INFO)
 
 load_dotenv()
 
-HOST = os.getenv("HOST")
-PASSWRD = os.getenv("PASSWORD")
-USER = os.getenv("USER")
-PORT = os.getenv("PORT")
-DB_NAME = os.getenv("DB_NAME")
+HOST = os.getenv("POSTGRES_HOST")
+PASSWRD = os.getenv("POSTGRES_PASSWORD")
+USER = os.getenv("POSTGRES_USER")
+PORT = os.getenv("POSTGRES_PORT")
+DB_NAME = os.getenv("POSTGRES_DB")
 
 
 async def insert_user(user_id, user_name):
